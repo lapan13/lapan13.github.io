@@ -131,6 +131,7 @@ aside {
 
 .profile p {
     text-align: center;
+
 }
 
 th {
@@ -141,6 +142,11 @@ th {
 td {
     text-align: left;
     word-break: break-all;
+
+}
+
+.profile textarea {
+    width: 100%;
 }
 
 footer {
