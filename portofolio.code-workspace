@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "D:\\Coding\\Course\\Dicoding\\dasar-pemrograman-web"
+	},
+	{
+		"path": "D:\\Coding\\Course\\Dicoding\\web-calculator"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "web-portofolio"
+  }
+}
