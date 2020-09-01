@@ -6,10 +6,6 @@ body {
   color: white;
 }
 
-.white {
-  color: #fff;
-}
-
 .wrapper {
   display: flex;
   flex-direction: row;
@@ -66,4 +62,15 @@ nav ul {
 
 .social li {
   margin-top: 8px;
+}
+
+nav ul li a i {
+  color: white;
+  transition: 0.5s;
+}
+
+.active,
+nav ul li a i:hover {
+  color: deepskyblue;
+  width: 50%;
 }
