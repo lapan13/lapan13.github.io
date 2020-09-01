@@ -6,13 +6,17 @@ body {
   color: white;
 }
 
+.white {
+  color: #fff;
+}
+
 .wrapper {
   display: flex;
   flex-direction: row;
   min-height: 100vh;
 }
 
-.wrapper>* {
+.wrapper > * {
   padding: 20px;
 }
 
@@ -28,4 +32,38 @@ body {
 .page-sub {
   flex-grow: 1;
   background: #424242;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+  align-content: flex-end;
+}
+
+.logo {
+  flex-grow: 4;
+}
+
+.menu {
+  flex-grow: 6;
+  align-content: flex-end;
+}
+
+.menu li {
+  margin-top: 20px;
+}
+
+.social {
+  flex-grow: 2;
+}
+
+.social li {
+  margin-top: 8px;
 }
