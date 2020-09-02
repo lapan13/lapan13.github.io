@@ -98,6 +98,15 @@ nav ul li a i:hover {
   align-items: center;
   margin-left: 50px;
 }
+.text-content {
+  padding: 0;
+  display: flex;
+  /* background-color: gray; */
+  height: 60vh;
+  justify-content: start;
+  align-items: center;
+  margin-left: 50px;
+}
 
 .sub-section {
   display: flex;
@@ -105,5 +114,10 @@ nav ul li a i:hover {
   align-items: center;
 }
 
+.sub-section-about {
+  display: flex;
+  height: 100vh;
+  align-items: flex-end;
+}
 .sub-section img {
 }
