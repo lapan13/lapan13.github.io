@@ -98,6 +98,11 @@ nav ul li a i:hover {
   align-items: center;
   margin-left: 50px;
 }
+
+.alphabet {
+  color: deepskyblue;
+}
+
 .text-content {
   padding: 0;
   display: flex;
