@@ -13,7 +13,7 @@ body {
 }
 
 .wrapper > * {
-  padding: 20px;
+  padding: 0 20px;
 }
 
 .page-header {
@@ -27,7 +27,7 @@ body {
 
 .page-sub {
   flex-grow: 1;
-  background: #424242;
+  background: #141414;
 }
 
 nav {
@@ -44,11 +44,11 @@ nav ul {
 }
 
 .logo {
-  flex-grow: 4;
+  flex-grow: 1;
 }
 
 .menu {
-  flex-grow: 6;
+  flex-grow: 1;
   align-content: flex-end;
 }
 
@@ -57,7 +57,7 @@ nav ul {
 }
 
 .social {
-  flex-grow: 2;
+  flex-grow: 0;
 }
 
 .social li {
@@ -73,4 +73,37 @@ nav ul li a i {
 nav ul li a i:hover {
   color: deepskyblue;
   width: 50%;
+}
+
+.topbar {
+  display: flex;
+  height: 10vh;
+  justify-content: start;
+  align-items: flex-start;
+}
+.bottombar {
+  display: flex;
+  height: 30vh;
+  justify-content: start;
+  align-items: flex-end;
+}
+
+.main-content {
+  padding: 0;
+  display: flex;
+  /* background-color: gray; */
+  font-size: 300%;
+  height: 60vh;
+  justify-content: start;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.sub-section {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.sub-section img {
 }
