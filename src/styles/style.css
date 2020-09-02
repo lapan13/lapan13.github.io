@@ -140,3 +140,23 @@ nav ul li a i:hover {
 }
 .sub-section img {
 }
+
+.message input,
+textarea {
+  color: white;
+  background-color: #141414;
+  padding: 10px;
+  margin: 0 20px 20px 0;
+  border-radius: 8px;
+}
+
+.message input[name="subject"] {
+}
+
+.message input[type="submit"] {
+  background-color: deepskyblue;
+}
+
+.message input[type="submit"]:hover {
+  background-color: rgb(0, 108, 145);
+}
