@@ -13,15 +13,14 @@
 </head>
 
 <body>
-  <div class="wrapper">
+  <div class="flex-container">
     <aside class="navbar">
-      <div class="logo">
-        <a href="index.html">
+      <!-- content here -->
+      <nav>
+        <a class="logo" href="index.html">
           <img src="/src/image/logo.png" alt="" style="width: 30px" />
         </a>
-      </div>
-      <div class="menu">
-        <ul>
+        <ul class="menu">
           <li>
             <a href="#"><i class="fas fa-home fa-lg active"></i></a>
           </li>
@@ -38,9 +37,7 @@
             <a href="/src/contact.html"><i class="fas fa-phone-alt fa-lg"></i></a>
           </li>
         </ul>
-      </div>
-      <div class="social">
-        <ul>
+        <ul class="social">
           <li>
             <a href=""><i class="fab fa-linkedin"></i></a>
           </li>
@@ -57,26 +54,32 @@
             <a href=""><i class="fab fa-twitter"></i></a>
           </li>
         </ul>
-      </div>
-
+      </nav>
     </aside>
-    <main class="page">
-      <section class="left-section">
-        <article class="top"></article>
-        <article class="mid" style="font-size: 240%;">
+    <main class="main">
+      <!-- content here -->
+      <section class="topbar">
+        <div></div>
+      </section>
+      <section class="main-content">
+        <div>
           <h2>Hi,</h2>
           <h1>I'm <span class="alphabet">A</span>ri.</h1>
           <hr />
           <h6 style="color: deepskyblue">Who passionate about Web Dev</h6>
-        </article>
-        <article class="bottom"></article>
+        </div>
       </section>
-      <section class="right-section">
-        <img src="src/image/logo.png" alt="" style="width: 30vw" />
+      <section class="topbar">
+        <div></div>
       </section>
+      <footer class="page-sub">
+        <!-- content here -->
+        <div class="sub-section">
+          <img src="src/image/logo.png" alt="" style="width: 30vw" />
+        </div>
+      </footer>
     </main>
   </div>
-
   <script src="index.js" type="module"></script>
 </body>
 

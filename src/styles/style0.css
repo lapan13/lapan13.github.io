@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+}
+
+body {
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.flex-container>* {
+  padding: 0 20px;
+}
+
+.navbar {
+  background: #000000;
+}
+
+.main {
+  flex-grow: 1;
+  background: #141414;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+  align-content: flex-end;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.menu {
+  flex-grow: 1;
+  align-content: flex-end;
+}
+
+.menu li {
+  margin-top: 20px;
+}
+
+.social {
+  flex-grow: 0;
+}
+
+.social li {
+  margin-top: 8px;
+}
+
+nav ul li a i {
+  color: white;
+  transition: 0.5s;
+}
+
+.active,
+ul li a i:hover {
+  color: deepskyblue;
+  width: 50%;
+}
+
+.topbar {
+  display: flex;
+  height: 10vh;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.bottombar {
+  display: flex;
+  height: 30vh;
+  justify-content: start;
+  align-items: flex-end;
+}
+
+.main-content {
+  padding: 0;
+  display: flex;
+  font-size: 300%;
+  height: 60vh;
+  justify-content: start;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.alphabet {
+  color: deepskyblue;
+}
+
+.text-content {
+  padding: 0;
+  display: flex;
+  height: 60vh;
+  justify-content: start;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.image-content {
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: start;
+  align-items: center;
+}
+
+.list-works {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.list-works img {
+  width: 300px;
+  height: 300px;
+}
+
+.sub-section {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.sub-section-about {
+  display: flex;
+  height: 100vh;
+  align-items: flex-end;
+}
+
+.sub-section img {}
+
+.message input,
+textarea {
+  color: white;
+  background-color: #141414;
+  padding: 10px;
+  margin: 0 20px 20px 0;
+  border-radius: 8px;
+}
+
+.message input[name="subject"] {}
+
+.message input[type="submit"] {
+  background-color: deepskyblue;
+}
+
+.message input[type="submit"]:hover {
+  background-color: rgb(0, 108, 145);
+}
+
+/* 
+
+
+
+
+
+ */

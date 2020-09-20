@@ -14,32 +14,33 @@
 
 <body>
     <div class="wrapper">
-        <header class="page-header">
-            <!-- content here -->
-            <nav>
-                <a class="logo" href="">
-                    <img src="image/logo.png" alt="" style="width: 30px" />
+        <aside class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="/src/image/logo.png" alt="" style="width: 30px" />
                 </a>
-                <ul class="menu">
-                    <!-- list items here -->
+            </div>
+            <div class="menu">
+                <ul>
                     <li>
-                        <a href="../index.html"><i class="fas fa-home fa-lg "></i></a>
+                        <a href="#"><i class="fas fa-home fa-lg active"></i></a>
                     </li>
                     <li>
-                        <a href="about.html"><i class="fas fa-user fa-lg "></i></a>
+                        <a href="/src/about.html"><i class="fas fa-user fa-lg"></i></a>
                     </li>
                     <li>
-                        <a href="skills.html"><i class="fas fa-laptop-code fa-lg "></i></a>
+                        <a href="/src/skills.html"><i class="fas fa-laptop-code fa-lg"></i></a>
                     </li>
                     <li>
-                        <a href="works.html"><i class="fas fa-briefcase fa-lg"></i></a>
+                        <a href="/src/works.html"><i class="fas fa-briefcase fa-lg"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fas fa-phone-alt fa-lg active"></i></a>
+                        <a href="/src/contact.html"><i class="fas fa-phone-alt fa-lg"></i></a>
                     </li>
                 </ul>
-                <ul class="social">
-                    <!-- list items here -->
+            </div>
+            <div class="social">
+                <ul>
                     <li>
                         <a href=""><i class="fab fa-linkedin"></i></a>
                     </li>
@@ -56,21 +57,17 @@
                         <a href=""><i class="fab fa-twitter"></i></a>
                     </li>
                 </ul>
-            </nav>
-        </header>
-        <main class="page-main">
-            <!-- content here -->
-            <!-- <section class="topbar">
-                <div>
-                    <p>&#60;body&#62;</p>
-                </div>
-            </section> -->
-            <section class="image-content">
-                <div>
-                    <h1 style="color: deepskyblue; font-size: 500%;">Contact Me</h1>
+            </div>
+
+        </aside>
+        <main class="page">
+            <section class="left-section">
+                <article class="top"></article>
+                <article class="mid">
+                    <h1 style="color: deepskyblue; font-size: 240%;">Contact Me</h1>
+                    <hr />
                     <br>
-                    <br>
-                    <p style="font-size: 130%;">I am interested in freelance opportunities – especially ambitious or
+                    <p style="font-size: 120%;">I am interested in freelance opportunities – especially ambitious or
                         large projects. However, if you have other request or question, don’t hesitate to contact me
                         using below form either.
                     </p>
@@ -85,20 +82,13 @@
                         <br>
                         <input type="submit" value="Send">
                     </form>
-                </div>
+                </article>
+                <article class="bottom"></article>
             </section>
-            <!-- <section class="bottombar">
-                <div>
-                    <p>&#60;body&#62;</p>
-                </div>
-            </section> -->
-        </main>
-        <footer class="page-sub">
-            <!-- content here -->
-            <div class="sub-section-about">
+            <section class="right-section-profile">
                 <img src="image/profiltoon.png" alt="" style="width: 30vw" />
-            </div>
-        </footer>
+            </section>
+        </main>
     </div>
 </body>
 
