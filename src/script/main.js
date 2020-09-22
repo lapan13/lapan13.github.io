@@ -1,5 +1,5 @@
 const main = () => {
-    return console.log("Success");;
+    return console.log("Success");
 
 }
 
